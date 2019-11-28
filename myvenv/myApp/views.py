@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    context = {"var": 1243}
+    context = {"var": 124334}
     return render(request, "myApp/home.html", context)
